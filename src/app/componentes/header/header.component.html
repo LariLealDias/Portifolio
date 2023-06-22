@@ -1,0 +1,37 @@
+<p>header works!</p>
+<header class="container-alings" [ngClass]="{'fixed': isHeaderFixed}">
+  <div class="aling-left content">
+    <nav>
+      <li>
+        <a href="https://www.linkedin.com/in/larissa-leal-dias-408455157/" target="_blank">
+          <img src="assets/imgs/linkedin.png" alt="logo Linkedin">
+        </a>
+      </li>
+
+      <li>
+        <a href="https://github.com/LariLealDias" target="_blank">
+          <img src="assets/imgs/github.png" alt="logo GitHub">
+        </a>
+      </li>
+
+      <li>
+        <a href="assets/pdf/Curriculo-LarissaLeal.pdf" download="Curriculo-LarissaLeal.pdf">
+          <img src="assets/imgs/cv.png" alt="logo cv" title="baixar cv">
+        </a>
+      </li>
+
+    </nav>
+  </div>
+
+  <div class="aling-right content">
+    <nav>
+      <li><a (click)="scrollToSection('section-home')" class="nav-li-a">Home</a></li>
+      <li><a (click)="scrollToSection('section-sobre-mim')" class="nav-li-a">Sobre mim</a></li>
+      <li><a (click)="scrollToSection('section-habilidades')" class="nav-li-a">Habilidades</a></li>
+      <li><a (click)="scrollToSection('section-projetos')" class="nav-li-a">Projetos</a></li>
+      <li><a (click)="scrollToSection('section-contato')" class="nav-li-a">Contato</a></li>
+    </nav>
+  </div>
+</header>
+
+

@@ -1,0 +1,67 @@
+*{
+  margin-top: 10px;
+  background-color: #BE3144;
+}
+
+section{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  border-radius: 100px 100px 0 0;
+}
+
+#container-title{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.title-contact{
+  color: #2F1B41;
+}
+
+.subtitle{
+  color: #eb8c7e;
+  letter-spacing: 3px;
+
+}
+
+
+#container-nav{
+  margin-right: 50px;
+}
+
+nav{
+  padding: 15px;
+}
+
+a{
+  font-weight: 600;
+}
+
+.container-logo-and-p{
+  display: flex;
+  flex-direction: row;
+}
+
+.title-logo{
+  color: #eb8c7e;
+  margin: 22px 0 0 10px;
+  letter-spacing: 10px;
+}
+
+.title-logo-email{
+  color: #eb8c7e;
+  margin: 22px 0 0 10px;
+  letter-spacing: 5px;
+
+  font-family: 'Kanit', sans-serif;
+  font-weight: 600;
+}
+
+
+img{
+  width: 50px;
+  height: 50px;
+}

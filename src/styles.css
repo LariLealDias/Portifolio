@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@200;400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;600&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #2F1B41;
+}
+
+h2{
+  font-size: 50px;
+  font-family: 'Oswald', sans-serif;
+  font-weight: 400;
+}
+
+li{
+  list-style: none;
+}
+
+a{
+ text-decoration: none;
+ font-family: 'Kanit', sans-serif;
+ font-weight: 200;
+}
+
+
+
+
+/* FONTES */
+.ff-playfair-display-regular{
+  font-family: 'Playfair Display', serif;
+  font-weight: 400;
+}
+.ff-playfair-display-medium{
+  font-family: 'Playfair Display', serif;
+  font-weight: 500;
+}
+
+
+.ff-kanit-extra-light{
+  font-family: 'Kanit', sans-serif;
+  font-weight: 200;
+}
+.ff-kanit-regular{
+  font-family: 'Kanit', sans-serif;
+  font-weight: 400;
+}
+.ff-kanit-bold{
+  font-family: 'Kanit', sans-serif;
+  font-weight: 600;
+}
+
+
+.ff-oswald-light{
+  font-family: 'Oswald', sans-serif;
+  font-weight: 200;
+}
+.ff-oswald-regular{
+  font-family: 'Oswald', sans-serif;
+  font-weight: 400;
+}
+.ff-oswald-semi-bold{
+  font-family: 'Oswald', sans-serif;
+  font-weight: 600;
+}

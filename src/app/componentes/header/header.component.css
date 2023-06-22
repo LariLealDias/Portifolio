@@ -1,0 +1,55 @@
+.container-alings{
+  display: flex;
+  justify-content: space-between;
+}
+.content{
+  margin-top: 20px;
+  font-size: 15px;
+}
+.aling-left{
+  margin-left: 15px;
+}
+
+.aling-right{
+  margin-right: 15px;
+}
+
+li{
+  display: inline;
+}
+a{
+ margin: 15px;
+}
+
+.nav-li-a{
+ color: #F05941;
+ margin: 15px;
+ font-weight: 200;
+ letter-spacing: 3px;
+ transition: 0.5s;
+}
+
+.nav-li-a:hover{
+ color: #ce8b81;
+ letter-spacing: 4px;
+}
+
+img{
+  width: 40px;
+  height: 40px;
+}
+
+
+
+/* para função Hostlistener */
+:host {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  transition: top 0.3s ease-in-out;
+}
+
+:host(.fixed) {
+  top: -100px; /* ajuste o valor para o tamanho do header */
+}
