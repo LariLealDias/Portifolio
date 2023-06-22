@@ -7,13 +7,11 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ProjetosComponent implements OnInit {
   qtdTotalDeProjetos: number = 0;
-  isMousePorCima: boolean = false;
 
   constructor() { }
 
   ngOnInit(): void {
     this.qtdTotalDeProjetos = document.getElementsByClassName('project').length;
   }
-
 
 }

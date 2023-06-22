@@ -7,7 +7,6 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HabilidadesComponent implements OnInit {
 
-  isHovered = false;
   text1 = "C#";
   text2 = "NodeJs";
   text3 = "MySql";
@@ -22,11 +21,6 @@ export class HabilidadesComponent implements OnInit {
   text12 = "Postman";
   text13 = "Git e GitHub";
   text14 = "ASP.NET";
-
-
-
-
-
 
   hoveredText = '';
 
