@@ -52,5 +52,5 @@ img{
 }
 
 :host(.fixed) {
-  top: -100px; /* ajuste o valor para o tamanho do header */
+  top: -100px;
 }
