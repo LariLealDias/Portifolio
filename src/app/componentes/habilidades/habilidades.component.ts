@@ -8,19 +8,22 @@ import { Component, OnInit } from '@angular/core';
 export class HabilidadesComponent implements OnInit {
 
   text1 = "C#";
-  text2 = "NodeJs";
-  text3 = "MySql";
-  text4 = "Angular";
-  text5 = "TS";
-  text6 = "React";
-  text7 = "JS";
-  text8 = "HTML";
-  text9 = "CSS";
-  text10 = "VS";
-  text11 = "VSC";
-  text12 = "Postman";
-  text13 = "Git e GitHub";
-  text14 = "ASP.NET";
+  text2 = "ASP.NET";
+  text3 = "Python";
+  text4 = "FastApi";
+  text5 = "NodeJS";
+  text6 = "MySql";
+  text7 = "Angular";
+  text8 = "TS";
+  text9 = "React";
+  text10 = "JS";
+  text11 = "HTML";
+  text12 = "CSS";
+  text13 = "Visual Studio";
+  text14 = "VSCode";
+  text15 = "Docker";
+  text16 = "Postman"
+  text17 = "Git e Github"
 
   hoveredText = '';
 
